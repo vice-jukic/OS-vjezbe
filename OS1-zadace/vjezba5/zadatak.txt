@@ -1,0 +1,5 @@
+touch $RANDOM.num
+Provjeru je li datoteka stvorena obavljamo naredbom ls
+cp 27350.num backup.num
+mkdir ../backup
+mv backup.num ../backup
