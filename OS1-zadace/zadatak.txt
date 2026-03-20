@@ -1,0 +1,52 @@
+Zadatak 1
+---------------------------------------------
+pwd  
+ls  
+mkdir vjezba1 && cd vjezba1  
+touch README.md  
+cd ..  
+
+Zadatak 2
+---------------------------------------------
+mkdir vjezba2 && cd vjezba2 && touch file.txt  
+cp file.txt file_copy.txt  
+ls  
+rm file.txt && cd ..  
+rmdir vjezba2  
+Direktorij se ne može obrisati jer nije prazan. Sadrži file_copy.txt.
+
+Zadatak 3
+---------------------------------------------
+mkdir vjezba3 && cd vjezba3 && mkdir backup  
+touch notes.txt todo.txt script.sh  
+cp * backup/  
+rm script.sh && ls  
+mkdir backup/$USER  
+mv backup/*.txt backup/*.sh backup/$USER
+
+Zadatak 4
+---------------------------------------------
+mkdir vjezba4 && cd vjezba4 && mkdir subfolder  
+touch $HOSTNAME  
+mv $HOSTNAME $USER  
+mv $USER subfolder/  
+rm $(pwd)/subfolder/$USER
+
+Zadatak 5
+---------------------------------------------
+touch $RANDOM.num
+Provjeru je li datoteka stvorena obavljamo naredbom ls
+cp 27350.num backup.num
+mkdir backup
+mv backup.num backup
+
+Zadatak 6
+---------------------------------------------
+mkdir /mnt/c/Users/$USER/Documents/vjezba6
+cd /mnt/c/Users/vicej/Documents/vjezba6
+touch OS_script.md notes.txt && mkdir scripts
+mv OS_script.md scripts/
+mv notes.txt todo.txt
+cd scripts
+rm ../todo.txt
+mv /mnt/c/Users/vicej/Documents/vjezba6/ ~/faks/drugi_semestar/operacijski_sustavi/OS-vjezbe/OS1-zadace
