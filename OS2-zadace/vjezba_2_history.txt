@@ -38,3 +38,10 @@ cp -a -v -n ../backup/. .
 ls -l -a -t
 ls -l -a -t -1
 druga naredba: find .
+
+Zadatak 5
+------------------------------------
+cd /mnt/c/Users/vicej/Documents
+ls -a -l -S
+ls -l -S -h
+tree -a
