@@ -1,7 +1,33 @@
+Zadatak 1
+------------------------------------
 git clone https://github.com/vice-jukic/OS-vjezbe
 ls
 cd OS-vjezbe/
 mkdir OS2-zadace
 cd OS2-zadace/
 touch vjezba_2_history.txt
+history
+
+Zadatak 2
+------------------------------------
+mkdir -p vjezba_2/data
+mkdir -p vjezba_2/backup
+ls vjezba_2
+cd vjezba_2/
+cd data
+touch script.js style.css .env
+ls -a
+echo 'console.log("Hello World!")' > script.js
+echo 'body { background-color: #f0f0f0; }' > style.css
+echo 'VJEZBE=OS' > .env
+ls -a
+cat .env && cat script.js && cat style.css
+history
+
+Zadatak 3
+------------------------------------
+cp -a -v data/. backup/
+ls backup -a
+cd data
+ls -l -a -S ../backup
 history
