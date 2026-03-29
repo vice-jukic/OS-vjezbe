@@ -22,7 +22,6 @@ echo 'body { background-color: #f0f0f0; }' > style.css
 echo 'VJEZBE=OS' > .env
 ls -a
 cat .env && cat script.js && cat style.css
-history
 
 Zadatak 3
 ------------------------------------
@@ -30,4 +29,12 @@ cp -a -v data/. backup/
 ls backup -a
 cd data
 ls -l -a -S ../backup
-history
+
+Zadatak 4
+------------------------------------
+rm -v -i !(.env)
+ls -a
+cp -a -v -n ../backup/. .
+ls -l -a -t
+ls -l -a -t -1
+druga naredba: find .
