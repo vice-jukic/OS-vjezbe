@@ -1,0 +1,7 @@
+git clone https://github.com/vice-jukic/OS-vjezbe
+ls
+cd OS-vjezbe/
+mkdir OS2-zadace
+cd OS2-zadace/
+touch vjezba_2_history.txt
+history
