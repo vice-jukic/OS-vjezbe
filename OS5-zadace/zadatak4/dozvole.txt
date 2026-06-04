@@ -1,0 +1,21 @@
+1. rwxr-xr-x = 775: 	-vlasnik može čitati, pisati i izvršavati, 
+			-grupa može čitati i izvršavati, 
+			-ostali korisnici čitati i izvršavati
+
+2. rw-r--r-- = 644:	-vlasnik može čitati i pisati,
+			-grupa može samo čitati
+			-ostali korisnici samo čitati
+
+3. rwx------ = 700:	-vlasnik može čitati, pisati i izvršavati
+			-grupa nema dozvole
+			-ostali korisnici nemaju dozvole
+
+4. rw-rw-r-- = 664:	-vlasnik i grupa mogu čitati i pisati
+			-ostali korisnici samo čitati
+
+5. rwxrwxrwx = 777:	-svi imaju dozvole čitanja, pisanja i izvršavanja
+
+6. r--r--r-- = 444;	-svi mogu samo čitati
+
+7. rw------- = 600:	-vlasnik može čitati i pisati
+			-grupa i ostali korisnici nemaju nikakve dozvole

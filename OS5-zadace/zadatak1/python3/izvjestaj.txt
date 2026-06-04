@@ -1,0 +1,8 @@
+Proces se pokrece pomocu pyrhon3 interpretera.
+PID je jedinstveni broj procesa pomocu kojeg mozemo pronaci ili prekinuti proces.
+NI prikayuje nice vrijednost procesa (prioritet).
+CPU% i MEM% prikayuju koliko proces koristi procesor i koliko radne memorije.
+Proces se moze prekinuti naredbom kill:
+	kill
+	kill -9
+	kill -15
